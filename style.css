@@ -1,0 +1,61 @@
+* {
+    font-family: 'Lato', 'Righteous';
+    margin: 0;
+    padding: 0;
+}
+
+.lato {
+    font-family: 'Lato';
+}
+
+.righteous {
+    font-family: "Righteous";
+}
+
+
+.header_container {
+    background-color: #2D3142;
+    display: flex;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.title_container {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.restau_name {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+.restau_name span {
+    color: #EF8354;
+}
+
+.nav_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.item_nav {
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 25%;
+    width: 140%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item_nav:hover {
+    transition: background-color 0.5s;
+    background-color: #EF8354;
+}
