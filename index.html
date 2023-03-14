@@ -25,7 +25,7 @@
         <div class="item_nav">Contact</div>
       </div>
 
-      <div class="dark_btn_container">
+      <div class="dark_btn">
         <button>Dark</button>
       </div>
     </div>
@@ -173,7 +173,73 @@
   </main>
 
   <footer>
+    <article class="form_container">
+      <h2>Formulaire de Contact</h2>
+      <p class="p">Pour plus de details vous pouvez consulter notre site <a href="https://www.edenschool.fr/"
+          class="lien_eden">ici</a></p>
 
+      <form action="#" method="get">
+        <section class="contact_container">
+
+          <h3>Information de contact</h3>
+          <fieldset>
+            <legend>Quel est votre age</legend>
+            <div>
+              <input type="radio" name="age" label="12 - 14">
+              <label for="12 - 14">12 - 14</label>
+            </div>
+            <div>
+              <input type="radio" name="age" label="15 - 17">
+              <label for="15 - 17">15 - 17</label>
+            </div>
+            <div>
+              <input type="radio" name="age" label="18 - 19">
+              <label for="18 - 19">18 - 19</label>
+          </fieldset>
+          <div>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" placeholder="Saisissez votre nom" required minlength="1">
+          </div>
+          <div>
+            <label for="email">Mail :</label>
+            <input type="email" id="email" placeholder="Saisissez votre mail" required minlength="1">
+          </div>
+        </section>
+
+        <section class="game_select">
+          <h3>Votre jeu préféré</h3>
+          <div>
+            <label for="console">Choisissez une console :</label>
+            <select name="console" id="console">
+              <option value="">--Choisissez une console--</option>
+              <option value="Gamecube">Gamecube</option>
+              <option value="Switch">Switch</option>
+            </select>
+          </div>
+          <div>
+            <label for="jeu">Choisissez un jeu :</label>
+            <select name="jeu" id="jeu">
+              <option value="">--Choisissez un jeu--</option>
+              <option value="mario_kart">Mario kart</option>
+              <option value="zelda">Zelda</option>
+            </select>
+          </div>
+        </section>
+
+        <section class="message_container">
+          <h3>Votre message</h3>
+          <div>
+            <textarea placeholder="Saisissez votre message" name="message" id="message" cols="40" rows="5"></textarea>
+          </div>
+          <div>
+            <label for="cryptage">Cryptage du message :</label>
+            <input type="password" placeholder="Saisissez votre code">
+          </div>
+
+        </section>
+        <input class="submit_btn" type="submit" value=" Envoyer votre message">
+      </form>
+    </article>
   </footer>
 
   <script src="app.js" type="module"></script>
