@@ -85,6 +85,10 @@
     width: 50px;
 }
 
+.dark_btn button:hover {
+    transition: background-color 0.5s;
+    background-color: #EF8354;
+}
 
 /* main */
 
@@ -314,6 +318,11 @@ textarea {
     border-left: solid 1px grey;
     border-right: solid 1px black(0, 0, 0);
     border-bottom: solid 1px black;
+}
+
+.submit_btn:hover {
+    transition: background-color 0.5s;
+    background-color: #EF8354;
 }
 
 /*desktop */
