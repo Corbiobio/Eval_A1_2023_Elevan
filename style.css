@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+#pblague {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 .lato {
     font-family: 'Lato';
 }
@@ -11,7 +17,6 @@
 .righteous {
     font-family: "Righteous";
 }
-
 
 .header_container {
     background-color: #4F5D75;
